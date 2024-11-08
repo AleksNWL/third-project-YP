@@ -1,0 +1,14 @@
+.lead__image {
+  width: 100%;
+  height: auto;
+  padding-bottom: 8px;
+}
+
+.lead__image:last-of-type {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  padding-bottom: 0px;
+}

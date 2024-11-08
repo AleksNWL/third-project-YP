@@ -1,0 +1,35 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+.body {
+    font-family: "Inter", 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    background-color: #2a2c2f;
+    color: #fff;
+    margin: auto;
+    width: 100%;
+}
+
+html {
+    width: 100%;
+}
+
+.main {
+    display: grid;
+    margin: auto;
+    width: 100%;
+}
+.body {
+    display: grid;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}

@@ -1,0 +1,5 @@
+.cover__overlay {
+  position: relative;
+  background-color: #2A2C2F;
+  z-index: 1;
+}

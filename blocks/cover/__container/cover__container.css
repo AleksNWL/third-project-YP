@@ -1,0 +1,12 @@
+.cover__container {
+  position: absolute;
+  text-align: center;
+  max-width: 560px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__container {
+    max-width: 288px;
+  }
+}
